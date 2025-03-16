@@ -13,7 +13,7 @@ import EditAgreement from './components/EditAgreement.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Root />,
+    // element: <Root />,
     errorElement: <ErrorPage />,
     children: [
       {
